@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+// ini komentar
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('resto/home',
 [App\Http\Controllers\resto\HomeController::class, 'index'])
